@@ -27,9 +27,9 @@ local function onKeyPress(input)
         -- Check if the player has a character
         if player.Character then
             -- Check if the Ctrl key is being held down
-            if input.UserInputState == Enum.UserInputState.Begin then
+            if input.UserInputType == Enum.UserInputType.Keyboard and input.UserInputState == Enum.UserInputState.Begin then
                 playWalkingAnimation(player.Character)
-            elseif input.UserInputState == Enum.UserInputState.End then
+            elseif input.UserInputType == Enum.UserInputType.Keyboard and input.UserInputState == Enum.UserInputState.End then
                 stopWalkingAnimation(player.Character)
             end
         end
