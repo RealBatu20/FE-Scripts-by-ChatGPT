@@ -1,1 +1,2 @@
-# r6-character-by-ChatGPT
+# FE-Scripts-by-ChatGPT
+IF THE SCRIPTS NOT FE, TRY AND MAKE IT FE, HELP ME BYPASS IT. FORK ME.
