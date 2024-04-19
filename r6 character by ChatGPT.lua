@@ -1,6 +1,3 @@
-Certainly! Below is a Lua script for creating an R6 character in an R15 game. This script will disable FE (FilteringEnabled) and run on the client-side:
-
-```lua
 -- Disable FE
 game:GetService("ReplicatedFirst").RequestStream:FireServer("nomods") -- Disable FE for client
 
@@ -72,6 +69,3 @@ end
 game:GetService("Players").PlayerAdded:Connect(function(player)
     createR6Character(player)
 end)
-```
-
-This script will create an R6 character for each player in the game. It disables FilteringEnabled to allow for the creation of R6 parts. Remember to use this script responsibly and adhere to Roblox's terms of service. Let me know if you need further assistance!
